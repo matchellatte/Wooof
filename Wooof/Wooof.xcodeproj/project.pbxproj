@@ -1,0 +1,866 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F32593F2D13CC9000113946 /* VeterinaryClinicMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32593E2D13CC9000113946 /* VeterinaryClinicMapView.swift */; };
+		3F3259412D13D42D00113946 /* PetFinderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3259402D13D42D00113946 /* PetFinderView.swift */; };
+		3F3259432D13D44400113946 /* PetFinderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3259422D13D44400113946 /* PetFinderViewModel.swift */; };
+		3F3259452D13D47100113946 /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3259442D13D47100113946 /* Pet.swift */; };
+		3F3259492D13D4A400113946 /* PetResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3259482D13D4A400113946 /* PetResponse.swift */; };
+		3F32594B2D13D4BD00113946 /* AccessTokenResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32594A2D13D4BD00113946 /* AccessTokenResponse.swift */; };
+		3F32594D2D13E79E00113946 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32594C2D13E79E00113946 /* NotificationsView.swift */; };
+		3F85834A2D12722100F3EBEA /* WooofApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8583492D12722100F3EBEA /* WooofApp.swift */; };
+		3F85834C2D12722100F3EBEA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F85834B2D12722100F3EBEA /* ContentView.swift */; };
+		3F85834E2D12722100F3EBEA /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F85834D2D12722100F3EBEA /* Item.swift */; };
+		3F8583502D12722200F3EBEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F85834F2D12722200F3EBEA /* Assets.xcassets */; };
+		3F8583532D12722200F3EBEA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F8583522D12722200F3EBEA /* Preview Assets.xcassets */; };
+		3F85835D2D12722200F3EBEA /* WooofTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F85835C2D12722200F3EBEA /* WooofTests.swift */; };
+		3F8583672D12722200F3EBEA /* WooofUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8583662D12722200F3EBEA /* WooofUITests.swift */; };
+		3F8583692D12722200F3EBEA /* WooofUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8583682D12722200F3EBEA /* WooofUITestsLaunchTests.swift */; };
+		3F8583772D12731200F3EBEA /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8583762D12731200F3EBEA /* Dog.swift */; };
+		3F8583792D12732900F3EBEA /* HeatCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8583782D12732900F3EBEA /* HeatCycle.swift */; };
+		3F85837C2D12734900F3EBEA /* DogListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F85837B2D12734900F3EBEA /* DogListView.swift */; };
+		3F85837E2D12736300F3EBEA /* DogDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F85837D2D12736300F3EBEA /* DogDetailView.swift */; };
+		3F8583802D12742300F3EBEA /* AddHeatCycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F85837F2D12742300F3EBEA /* AddHeatCycleView.swift */; };
+		3F8583822D12744600F3EBEA /* AddDogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8583812D12744600F3EBEA /* AddDogView.swift */; };
+		3F8583842D12745C00F3EBEA /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8583832D12745C00F3EBEA /* SettingsView.swift */; };
+		3F8583872D1274A800F3EBEA /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8583862D1274A800F3EBEA /* NotificationManager.swift */; };
+		3F8583892D1277E600F3EBEA /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8583882D1277E600F3EBEA /* CalendarView.swift */; };
+		3F85838B2D12780200F3EBEA /* MenstrualDataCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F85838A2D12780200F3EBEA /* MenstrualDataCard.swift */; };
+		3F85838D2D12782700F3EBEA /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F85838C2D12782700F3EBEA /* HomePageView.swift */; };
+		3F85838F2D12783F00F3EBEA /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F85838E2D12783F00F3EBEA /* DateHelper.swift */; };
+		3F8583912D1278B200F3EBEA /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8583902D1278B200F3EBEA /* ColorExtension.swift */; };
+		3F8583932D1279C800F3EBEA /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8583922D1279C800F3EBEA /* MainTabView.swift */; };
+		3F8583952D1279E000F3EBEA /* MyPetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8583942D1279DF00F3EBEA /* MyPetsView.swift */; };
+		3F8583972D127A0400F3EBEA /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8583962D127A0400F3EBEA /* ProfileView.swift */; };
+		3F85839B2D1282A300F3EBEA /* PetCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F85839A2D1282A300F3EBEA /* PetCardView.swift */; };
+		3F85839D2D1296BC00F3EBEA /* AddEditPetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F85839C2D1296BC00F3EBEA /* AddEditPetView.swift */; };
+		3F85839F2D129C8800F3EBEA /* CalculateEstrousStages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F85839E2D129C8800F3EBEA /* CalculateEstrousStages.swift */; };
+		3F8583A42D12A3F400F3EBEA /* Auth in Frameworks */ = {isa = PBXBuildFile; productRef = 3F8583A32D12A3F400F3EBEA /* Auth */; };
+		3F8583A62D12A3F400F3EBEA /* Functions in Frameworks */ = {isa = PBXBuildFile; productRef = 3F8583A52D12A3F400F3EBEA /* Functions */; };
+		3F8583A82D12A3F400F3EBEA /* PostgREST in Frameworks */ = {isa = PBXBuildFile; productRef = 3F8583A72D12A3F400F3EBEA /* PostgREST */; };
+		3F8583AA2D12A3F400F3EBEA /* Realtime in Frameworks */ = {isa = PBXBuildFile; productRef = 3F8583A92D12A3F400F3EBEA /* Realtime */; };
+		3F8583AC2D12A3F400F3EBEA /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 3F8583AB2D12A3F400F3EBEA /* Supabase */; };
+		3F8583AE2D12A43400F3EBEA /* SupabaseConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8583AD2D12A43400F3EBEA /* SupabaseConfig.swift */; };
+		3F8583B02D12A44900F3EBEA /* Supabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8583AF2D12A44900F3EBEA /* Supabase.swift */; };
+		3F8583B22D12A45B00F3EBEA /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8583B12D12A45B00F3EBEA /* AuthView.swift */; };
+		3F8583B42D12A47500F3EBEA /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8583B32D12A47500F3EBEA /* LoginPage.swift */; };
+		3F8583B62D12A48700F3EBEA /* SignupPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8583B52D12A48700F3EBEA /* SignupPage.swift */; };
+		3F8583B92D12A4AC00F3EBEA /* GetStartedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8583B82D12A4AC00F3EBEA /* GetStartedView.swift */; };
+		3F8583BB2D12A4C300F3EBEA /* GetStartedView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8583BA2D12A4C300F3EBEA /* GetStartedView1.swift */; };
+		3F8583BD2D12A4D800F3EBEA /* GetStartedView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8583BC2D12A4D800F3EBEA /* GetStartedView2.swift */; };
+		3F8583BF2D12A4F000F3EBEA /* GetStartedTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8583BE2D12A4F000F3EBEA /* GetStartedTabView.swift */; };
+		3F8583C12D12A93F00F3EBEA /* GetStartedView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8583C02D12A93F00F3EBEA /* GetStartedView3.swift */; };
+		3F8583C32D12ADCE00F3EBEA /* DogEstrousCycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8583C22D12ADCE00F3EBEA /* DogEstrousCycleView.swift */; };
+		3F8583C52D12B4C000F3EBEA /* HeaderSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8583C42D12B4C000F3EBEA /* HeaderSection.swift */; };
+		3F8583C72D12B50D00F3EBEA /* CalendarNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8583C62D12B50D00F3EBEA /* CalendarNavigationView.swift */; };
+		3F8583C92D12B52800F3EBEA /* MenstrualDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8583C82D12B52800F3EBEA /* MenstrualDataView.swift */; };
+		3F8583CB2D12B55200F3EBEA /* HeatCycleStagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8583CA2D12B55200F3EBEA /* HeatCycleStagesView.swift */; };
+		3F8583CD2D12B68600F3EBEA /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8583CC2D12B68600F3EBEA /* EmptyStateView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F8583592D12722200F3EBEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F85833E2D12722100F3EBEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F8583452D12722100F3EBEA;
+			remoteInfo = Wooof;
+		};
+		3F8583632D12722200F3EBEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F85833E2D12722100F3EBEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F8583452D12722100F3EBEA;
+			remoteInfo = Wooof;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F32593E2D13CC9000113946 /* VeterinaryClinicMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeterinaryClinicMapView.swift; sourceTree = "<group>"; };
+		3F3259402D13D42D00113946 /* PetFinderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetFinderView.swift; sourceTree = "<group>"; };
+		3F3259422D13D44400113946 /* PetFinderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetFinderViewModel.swift; sourceTree = "<group>"; };
+		3F3259442D13D47100113946 /* Pet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
+		3F3259482D13D4A400113946 /* PetResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetResponse.swift; sourceTree = "<group>"; };
+		3F32594A2D13D4BD00113946 /* AccessTokenResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessTokenResponse.swift; sourceTree = "<group>"; };
+		3F32594C2D13E79E00113946 /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
+		3F8583462D12722100F3EBEA /* Wooof.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wooof.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F8583492D12722100F3EBEA /* WooofApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WooofApp.swift; sourceTree = "<group>"; };
+		3F85834B2D12722100F3EBEA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3F85834D2D12722100F3EBEA /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		3F85834F2D12722200F3EBEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F8583522D12722200F3EBEA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3F8583582D12722200F3EBEA /* WooofTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WooofTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F85835C2D12722200F3EBEA /* WooofTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WooofTests.swift; sourceTree = "<group>"; };
+		3F8583622D12722200F3EBEA /* WooofUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WooofUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F8583662D12722200F3EBEA /* WooofUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WooofUITests.swift; sourceTree = "<group>"; };
+		3F8583682D12722200F3EBEA /* WooofUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WooofUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3F8583762D12731200F3EBEA /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+		3F8583782D12732900F3EBEA /* HeatCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeatCycle.swift; sourceTree = "<group>"; };
+		3F85837B2D12734900F3EBEA /* DogListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogListView.swift; sourceTree = "<group>"; };
+		3F85837D2D12736300F3EBEA /* DogDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogDetailView.swift; sourceTree = "<group>"; };
+		3F85837F2D12742300F3EBEA /* AddHeatCycleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHeatCycleView.swift; sourceTree = "<group>"; };
+		3F8583812D12744600F3EBEA /* AddDogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDogView.swift; sourceTree = "<group>"; };
+		3F8583832D12745C00F3EBEA /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		3F8583862D1274A800F3EBEA /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		3F8583882D1277E600F3EBEA /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		3F85838A2D12780200F3EBEA /* MenstrualDataCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenstrualDataCard.swift; sourceTree = "<group>"; };
+		3F85838C2D12782700F3EBEA /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		3F85838E2D12783F00F3EBEA /* DateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
+		3F8583902D1278B200F3EBEA /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		3F8583922D1279C800F3EBEA /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		3F8583942D1279DF00F3EBEA /* MyPetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPetsView.swift; sourceTree = "<group>"; };
+		3F8583962D127A0400F3EBEA /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		3F85839A2D1282A300F3EBEA /* PetCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetCardView.swift; sourceTree = "<group>"; };
+		3F85839C2D1296BC00F3EBEA /* AddEditPetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditPetView.swift; sourceTree = "<group>"; };
+		3F85839E2D129C8800F3EBEA /* CalculateEstrousStages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateEstrousStages.swift; sourceTree = "<group>"; };
+		3F8583AD2D12A43400F3EBEA /* SupabaseConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupabaseConfig.swift; sourceTree = "<group>"; };
+		3F8583AF2D12A44900F3EBEA /* Supabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Supabase.swift; sourceTree = "<group>"; };
+		3F8583B12D12A45B00F3EBEA /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		3F8583B32D12A47500F3EBEA /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
+		3F8583B52D12A48700F3EBEA /* SignupPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupPage.swift; sourceTree = "<group>"; };
+		3F8583B82D12A4AC00F3EBEA /* GetStartedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedView.swift; sourceTree = "<group>"; };
+		3F8583BA2D12A4C300F3EBEA /* GetStartedView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedView1.swift; sourceTree = "<group>"; };
+		3F8583BC2D12A4D800F3EBEA /* GetStartedView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedView2.swift; sourceTree = "<group>"; };
+		3F8583BE2D12A4F000F3EBEA /* GetStartedTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedTabView.swift; sourceTree = "<group>"; };
+		3F8583C02D12A93F00F3EBEA /* GetStartedView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedView3.swift; sourceTree = "<group>"; };
+		3F8583C22D12ADCE00F3EBEA /* DogEstrousCycleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogEstrousCycleView.swift; sourceTree = "<group>"; };
+		3F8583C42D12B4C000F3EBEA /* HeaderSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderSection.swift; sourceTree = "<group>"; };
+		3F8583C62D12B50D00F3EBEA /* CalendarNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarNavigationView.swift; sourceTree = "<group>"; };
+		3F8583C82D12B52800F3EBEA /* MenstrualDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenstrualDataView.swift; sourceTree = "<group>"; };
+		3F8583CA2D12B55200F3EBEA /* HeatCycleStagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeatCycleStagesView.swift; sourceTree = "<group>"; };
+		3F8583CC2D12B68600F3EBEA /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F8583432D12722100F3EBEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8583AC2D12A3F400F3EBEA /* Supabase in Frameworks */,
+				3F8583A82D12A3F400F3EBEA /* PostgREST in Frameworks */,
+				3F8583A62D12A3F400F3EBEA /* Functions in Frameworks */,
+				3F8583A42D12A3F400F3EBEA /* Auth in Frameworks */,
+				3F8583AA2D12A3F400F3EBEA /* Realtime in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8583552D12722200F3EBEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F85835F2D12722200F3EBEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F85833D2D12722100F3EBEA = {
+			isa = PBXGroup;
+			children = (
+				3F8583482D12722100F3EBEA /* Wooof */,
+				3F85835B2D12722200F3EBEA /* WooofTests */,
+				3F8583652D12722200F3EBEA /* WooofUITests */,
+				3F8583472D12722100F3EBEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F8583472D12722100F3EBEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F8583462D12722100F3EBEA /* Wooof.app */,
+				3F8583582D12722200F3EBEA /* WooofTests.xctest */,
+				3F8583622D12722200F3EBEA /* WooofUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F8583482D12722100F3EBEA /* Wooof */ = {
+			isa = PBXGroup;
+			children = (
+				3F8583B72D12A49800F3EBEA /* Get Started Screens */,
+				3F8583A12D12A3BC00F3EBEA /* Supabase */,
+				3F8583A02D12A25D00F3EBEA /* Auth */,
+				3F8583852D12746300F3EBEA /* Helpers */,
+				3F85837A2D12733200F3EBEA /* Views */,
+				3F8583752D1272FE00F3EBEA /* Models */,
+				3F8583492D12722100F3EBEA /* WooofApp.swift */,
+				3F85834B2D12722100F3EBEA /* ContentView.swift */,
+				3F85834D2D12722100F3EBEA /* Item.swift */,
+				3F85834F2D12722200F3EBEA /* Assets.xcassets */,
+				3F8583512D12722200F3EBEA /* Preview Content */,
+				3F8583902D1278B200F3EBEA /* ColorExtension.swift */,
+			);
+			path = Wooof;
+			sourceTree = "<group>";
+		};
+		3F8583512D12722200F3EBEA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3F8583522D12722200F3EBEA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3F85835B2D12722200F3EBEA /* WooofTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F85835C2D12722200F3EBEA /* WooofTests.swift */,
+			);
+			path = WooofTests;
+			sourceTree = "<group>";
+		};
+		3F8583652D12722200F3EBEA /* WooofUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F8583662D12722200F3EBEA /* WooofUITests.swift */,
+				3F8583682D12722200F3EBEA /* WooofUITestsLaunchTests.swift */,
+			);
+			path = WooofUITests;
+			sourceTree = "<group>";
+		};
+		3F8583752D1272FE00F3EBEA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3F8583762D12731200F3EBEA /* Dog.swift */,
+				3F8583782D12732900F3EBEA /* HeatCycle.swift */,
+				3F3259422D13D44400113946 /* PetFinderViewModel.swift */,
+				3F3259442D13D47100113946 /* Pet.swift */,
+				3F3259482D13D4A400113946 /* PetResponse.swift */,
+				3F32594A2D13D4BD00113946 /* AccessTokenResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3F85837A2D12733200F3EBEA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3F85837B2D12734900F3EBEA /* DogListView.swift */,
+				3F85837D2D12736300F3EBEA /* DogDetailView.swift */,
+				3F85837F2D12742300F3EBEA /* AddHeatCycleView.swift */,
+				3F8583812D12744600F3EBEA /* AddDogView.swift */,
+				3F8583832D12745C00F3EBEA /* SettingsView.swift */,
+				3F8583882D1277E600F3EBEA /* CalendarView.swift */,
+				3F85838A2D12780200F3EBEA /* MenstrualDataCard.swift */,
+				3F85838C2D12782700F3EBEA /* HomePageView.swift */,
+				3F8583922D1279C800F3EBEA /* MainTabView.swift */,
+				3F8583942D1279DF00F3EBEA /* MyPetsView.swift */,
+				3F8583962D127A0400F3EBEA /* ProfileView.swift */,
+				3F85839A2D1282A300F3EBEA /* PetCardView.swift */,
+				3F85839C2D1296BC00F3EBEA /* AddEditPetView.swift */,
+				3F85839E2D129C8800F3EBEA /* CalculateEstrousStages.swift */,
+				3F8583C22D12ADCE00F3EBEA /* DogEstrousCycleView.swift */,
+				3F8583C42D12B4C000F3EBEA /* HeaderSection.swift */,
+				3F8583C62D12B50D00F3EBEA /* CalendarNavigationView.swift */,
+				3F8583C82D12B52800F3EBEA /* MenstrualDataView.swift */,
+				3F8583CA2D12B55200F3EBEA /* HeatCycleStagesView.swift */,
+				3F8583CC2D12B68600F3EBEA /* EmptyStateView.swift */,
+				3F32593E2D13CC9000113946 /* VeterinaryClinicMapView.swift */,
+				3F3259402D13D42D00113946 /* PetFinderView.swift */,
+				3F32594C2D13E79E00113946 /* NotificationsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3F8583852D12746300F3EBEA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				3F8583862D1274A800F3EBEA /* NotificationManager.swift */,
+				3F85838E2D12783F00F3EBEA /* DateHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		3F8583A02D12A25D00F3EBEA /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				3F8583B32D12A47500F3EBEA /* LoginPage.swift */,
+				3F8583B52D12A48700F3EBEA /* SignupPage.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		3F8583A12D12A3BC00F3EBEA /* Supabase */ = {
+			isa = PBXGroup;
+			children = (
+				3F8583AD2D12A43400F3EBEA /* SupabaseConfig.swift */,
+				3F8583AF2D12A44900F3EBEA /* Supabase.swift */,
+				3F8583B12D12A45B00F3EBEA /* AuthView.swift */,
+			);
+			path = Supabase;
+			sourceTree = "<group>";
+		};
+		3F8583B72D12A49800F3EBEA /* Get Started Screens */ = {
+			isa = PBXGroup;
+			children = (
+				3F8583B82D12A4AC00F3EBEA /* GetStartedView.swift */,
+				3F8583BA2D12A4C300F3EBEA /* GetStartedView1.swift */,
+				3F8583BC2D12A4D800F3EBEA /* GetStartedView2.swift */,
+				3F8583BE2D12A4F000F3EBEA /* GetStartedTabView.swift */,
+				3F8583C02D12A93F00F3EBEA /* GetStartedView3.swift */,
+			);
+			path = "Get Started Screens";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F8583452D12722100F3EBEA /* Wooof */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F85836C2D12722200F3EBEA /* Build configuration list for PBXNativeTarget "Wooof" */;
+			buildPhases = (
+				3F8583422D12722100F3EBEA /* Sources */,
+				3F8583432D12722100F3EBEA /* Frameworks */,
+				3F8583442D12722100F3EBEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wooof;
+			packageProductDependencies = (
+				3F8583A32D12A3F400F3EBEA /* Auth */,
+				3F8583A52D12A3F400F3EBEA /* Functions */,
+				3F8583A72D12A3F400F3EBEA /* PostgREST */,
+				3F8583A92D12A3F400F3EBEA /* Realtime */,
+				3F8583AB2D12A3F400F3EBEA /* Supabase */,
+			);
+			productName = Wooof;
+			productReference = 3F8583462D12722100F3EBEA /* Wooof.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F8583572D12722200F3EBEA /* WooofTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F85836F2D12722200F3EBEA /* Build configuration list for PBXNativeTarget "WooofTests" */;
+			buildPhases = (
+				3F8583542D12722200F3EBEA /* Sources */,
+				3F8583552D12722200F3EBEA /* Frameworks */,
+				3F8583562D12722200F3EBEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F85835A2D12722200F3EBEA /* PBXTargetDependency */,
+			);
+			name = WooofTests;
+			productName = WooofTests;
+			productReference = 3F8583582D12722200F3EBEA /* WooofTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F8583612D12722200F3EBEA /* WooofUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F8583722D12722200F3EBEA /* Build configuration list for PBXNativeTarget "WooofUITests" */;
+			buildPhases = (
+				3F85835E2D12722200F3EBEA /* Sources */,
+				3F85835F2D12722200F3EBEA /* Frameworks */,
+				3F8583602D12722200F3EBEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F8583642D12722200F3EBEA /* PBXTargetDependency */,
+			);
+			name = WooofUITests;
+			productName = WooofUITests;
+			productReference = 3F8583622D12722200F3EBEA /* WooofUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F85833E2D12722100F3EBEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					3F8583452D12722100F3EBEA = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					3F8583572D12722200F3EBEA = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 3F8583452D12722100F3EBEA;
+					};
+					3F8583612D12722200F3EBEA = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 3F8583452D12722100F3EBEA;
+					};
+				};
+			};
+			buildConfigurationList = 3F8583412D12722100F3EBEA /* Build configuration list for PBXProject "Wooof" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F85833D2D12722100F3EBEA;
+			packageReferences = (
+				3F8583A22D12A3F400F3EBEA /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
+			productRefGroup = 3F8583472D12722100F3EBEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F8583452D12722100F3EBEA /* Wooof */,
+				3F8583572D12722200F3EBEA /* WooofTests */,
+				3F8583612D12722200F3EBEA /* WooofUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F8583442D12722100F3EBEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8583532D12722200F3EBEA /* Preview Assets.xcassets in Resources */,
+				3F8583502D12722200F3EBEA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8583562D12722200F3EBEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8583602D12722200F3EBEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F8583422D12722100F3EBEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F85838F2D12783F00F3EBEA /* DateHelper.swift in Sources */,
+				3F85834C2D12722100F3EBEA /* ContentView.swift in Sources */,
+				3F8583CD2D12B68600F3EBEA /* EmptyStateView.swift in Sources */,
+				3F8583792D12732900F3EBEA /* HeatCycle.swift in Sources */,
+				3F8583AE2D12A43400F3EBEA /* SupabaseConfig.swift in Sources */,
+				3F85838B2D12780200F3EBEA /* MenstrualDataCard.swift in Sources */,
+				3F8583B62D12A48700F3EBEA /* SignupPage.swift in Sources */,
+				3F8583892D1277E600F3EBEA /* CalendarView.swift in Sources */,
+				3F8583BF2D12A4F000F3EBEA /* GetStartedTabView.swift in Sources */,
+				3F8583B42D12A47500F3EBEA /* LoginPage.swift in Sources */,
+				3F32594B2D13D4BD00113946 /* AccessTokenResponse.swift in Sources */,
+				3F3259412D13D42D00113946 /* PetFinderView.swift in Sources */,
+				3F3259432D13D44400113946 /* PetFinderViewModel.swift in Sources */,
+				3F32593F2D13CC9000113946 /* VeterinaryClinicMapView.swift in Sources */,
+				3F85839F2D129C8800F3EBEA /* CalculateEstrousStages.swift in Sources */,
+				3F8583C92D12B52800F3EBEA /* MenstrualDataView.swift in Sources */,
+				3F8583C32D12ADCE00F3EBEA /* DogEstrousCycleView.swift in Sources */,
+				3F85834E2D12722100F3EBEA /* Item.swift in Sources */,
+				3F85837C2D12734900F3EBEA /* DogListView.swift in Sources */,
+				3F8583872D1274A800F3EBEA /* NotificationManager.swift in Sources */,
+				3F8583BD2D12A4D800F3EBEA /* GetStartedView2.swift in Sources */,
+				3F8583772D12731200F3EBEA /* Dog.swift in Sources */,
+				3F3259452D13D47100113946 /* Pet.swift in Sources */,
+				3F8583932D1279C800F3EBEA /* MainTabView.swift in Sources */,
+				3F8583842D12745C00F3EBEA /* SettingsView.swift in Sources */,
+				3F8583B02D12A44900F3EBEA /* Supabase.swift in Sources */,
+				3F32594D2D13E79E00113946 /* NotificationsView.swift in Sources */,
+				3F85834A2D12722100F3EBEA /* WooofApp.swift in Sources */,
+				3F8583912D1278B200F3EBEA /* ColorExtension.swift in Sources */,
+				3F8583B22D12A45B00F3EBEA /* AuthView.swift in Sources */,
+				3F8583C12D12A93F00F3EBEA /* GetStartedView3.swift in Sources */,
+				3F85837E2D12736300F3EBEA /* DogDetailView.swift in Sources */,
+				3F8583CB2D12B55200F3EBEA /* HeatCycleStagesView.swift in Sources */,
+				3F3259492D13D4A400113946 /* PetResponse.swift in Sources */,
+				3F8583C52D12B4C000F3EBEA /* HeaderSection.swift in Sources */,
+				3F8583952D1279E000F3EBEA /* MyPetsView.swift in Sources */,
+				3F85839D2D1296BC00F3EBEA /* AddEditPetView.swift in Sources */,
+				3F8583BB2D12A4C300F3EBEA /* GetStartedView1.swift in Sources */,
+				3F8583822D12744600F3EBEA /* AddDogView.swift in Sources */,
+				3F8583972D127A0400F3EBEA /* ProfileView.swift in Sources */,
+				3F8583C72D12B50D00F3EBEA /* CalendarNavigationView.swift in Sources */,
+				3F85838D2D12782700F3EBEA /* HomePageView.swift in Sources */,
+				3F8583B92D12A4AC00F3EBEA /* GetStartedView.swift in Sources */,
+				3F85839B2D1282A300F3EBEA /* PetCardView.swift in Sources */,
+				3F8583802D12742300F3EBEA /* AddHeatCycleView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8583542D12722200F3EBEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F85835D2D12722200F3EBEA /* WooofTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F85835E2D12722200F3EBEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8583672D12722200F3EBEA /* WooofUITests.swift in Sources */,
+				3F8583692D12722200F3EBEA /* WooofUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F85835A2D12722200F3EBEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F8583452D12722100F3EBEA /* Wooof */;
+			targetProxy = 3F8583592D12722200F3EBEA /* PBXContainerItemProxy */;
+		};
+		3F8583642D12722200F3EBEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F8583452D12722100F3EBEA /* Wooof */;
+			targetProxy = 3F8583632D12722200F3EBEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3F85836A2D12722200F3EBEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F85836B2D12722200F3EBEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F85836D2D12722200F3EBEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Wooof/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mseuf.edu.ph.Wooof;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F85836E2D12722200F3EBEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Wooof/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mseuf.edu.ph.Wooof;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F8583702D12722200F3EBEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mseuf.edu.ph.WooofTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wooof.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Wooof";
+			};
+			name = Debug;
+		};
+		3F8583712D12722200F3EBEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mseuf.edu.ph.WooofTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wooof.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Wooof";
+			};
+			name = Release;
+		};
+		3F8583732D12722200F3EBEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mseuf.edu.ph.WooofUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wooof;
+			};
+			name = Debug;
+		};
+		3F8583742D12722200F3EBEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mseuf.edu.ph.WooofUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wooof;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F8583412D12722100F3EBEA /* Build configuration list for PBXProject "Wooof" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F85836A2D12722200F3EBEA /* Debug */,
+				3F85836B2D12722200F3EBEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F85836C2D12722200F3EBEA /* Build configuration list for PBXNativeTarget "Wooof" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F85836D2D12722200F3EBEA /* Debug */,
+				3F85836E2D12722200F3EBEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F85836F2D12722200F3EBEA /* Build configuration list for PBXNativeTarget "WooofTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F8583702D12722200F3EBEA /* Debug */,
+				3F8583712D12722200F3EBEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F8583722D12722200F3EBEA /* Build configuration list for PBXNativeTarget "WooofUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F8583732D12722200F3EBEA /* Debug */,
+				3F8583742D12722200F3EBEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3F8583A22D12A3F400F3EBEA /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase/supabase-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3F8583A32D12A3F400F3EBEA /* Auth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F8583A22D12A3F400F3EBEA /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Auth;
+		};
+		3F8583A52D12A3F400F3EBEA /* Functions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F8583A22D12A3F400F3EBEA /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Functions;
+		};
+		3F8583A72D12A3F400F3EBEA /* PostgREST */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F8583A22D12A3F400F3EBEA /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = PostgREST;
+		};
+		3F8583A92D12A3F400F3EBEA /* Realtime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F8583A22D12A3F400F3EBEA /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Realtime;
+		};
+		3F8583AB2D12A3F400F3EBEA /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F8583A22D12A3F400F3EBEA /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3F85833E2D12722100F3EBEA /* Project object */;
+}
